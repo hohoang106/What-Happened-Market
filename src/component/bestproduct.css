@@ -1,0 +1,107 @@
+.best-product{
+  height:1073px;
+  background-image: url(https://cdn.zeplin.io/610079a8a166fd10c34366e0/assets/BF436480-43D1-4D54-9870-E0B959381D38.png)
+}
+.title-best{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 2em;
+  color: #f96400;
+}
+.des-best{
+  width: 665px;
+  height: 52px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f96400;
+}
+.product{
+  height: 514px;
+  width: 33%;
+  justify-content:center;
+  align-items:center;
+  margin-top: 9em;
+  background-size: cover;
+}
+.item1{
+  background-image: url(https://cdn.zeplin.io/610079a8a166fd10c34366e0/assets/8B8780DD-667D-4AF8-99A7-EE4DD9D721B8.png);
+}
+.item2{
+  background-image: url(https://cdn.zeplin.io/610079a8a166fd10c34366e0/assets/0DDED704-0F29-4235-8F7E-A8FD3A65A6E4.png);
+}.item3{
+  background-image: url(https://cdn.zeplin.io/610079a8a166fd10c34366e0/assets/392FF024-EA35-4734-B226-9F4D4AC05DE2.png);
+}
+.img-item{
+  width: 92px;
+  height: 92px;
+  position: relative;
+  right: 10.5em;
+  top: -3em;
+}
+.img-icon{
+  width: 65px;
+  height: 66px;
+}
+.description-how{
+  width: 188px;
+  height: 44px;
+  font-size: 20px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+}
+.box{
+  width: 369px;
+  height: 79px;
+  background-color: #fff;
+  border: solid 3px #020001;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  bottom: -24em;
+}
+.img-icon{
+  margin-left:3em;
+}
+@media (max-width: 991px) {
+  .product{
+    height: 500px;
+    width: 100%;
+  }
+  .best-product{
+    height: 2500px;
+  }
+  .box{
+    width: 300px;
+  }
+  .img-item{
+    right: 9.5em;
+  }
+  .title-best{
+    font-size: 40px;
+  }
+  .des-best{
+    font-size: 16px;
+    width: 350px
+  }
+}

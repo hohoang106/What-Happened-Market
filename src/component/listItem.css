@@ -1,0 +1,53 @@
+.item{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5em;
+}
+.itemLi{
+  width:20%;
+  padding-top: 2em;
+}
+.btn-see-more{
+  width: 199px;
+  height: 60px;
+  margin-top: 3em;
+  border: solid 3px #020001;
+  background-color: #fff;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+}
+.price-heart{
+  display: flex;
+  justify-content: space-between;
+}
+.title-item{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.94;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+}
+.fa-heart{
+  width: 19px;
+  height: 16px;
+  color: #fa7b26;
+  margin-right: 0.5em;
+}
+@media (max-width: 991px) {
+  .itemLi{
+    width:50%
+  }
+}

@@ -1,0 +1,26 @@
+.nav-header{
+  margin-left: auto;
+}
+.header-top{
+  height: 80px;
+  background-color: #111;
+
+}
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 1em;
+}
+.vertical-line{
+  border-left: 1px solid #ccc8c6;
+  height: 23px;
+  margin-top: 1.2em;
+}
+@media (max-width: 991px) {
+  .vertical-line{
+    display: none;
+  }
+  
+}

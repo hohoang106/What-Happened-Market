@@ -1,0 +1,190 @@
+.happend{
+  height: 1143px;
+  opacity: 0.85;
+  mix-blend-mode: multiply;
+  background-color: #fccb05;
+}
+.happend-title{
+  width: 523px;
+  height: 36px;
+  margin: auto;
+  padding-top: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 4.5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #110e03
+}
+.happend-content{
+  width: 682px;
+  height: 45px;
+  margin: auto;
+  padding-top: 5em;
+  font-family: Noto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #110e03;
+
+}
+.btn-seemore{
+  width: 200px;
+  height: 60px;
+  margin-top: 6em;
+  border: solid 3px #020001;
+  background-color: #fcd32a;
+  font-size: 23px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222;
+}
+.block{
+  width:20%;
+  height: 480px;
+  padding: 0;
+  margin: 0;
+}
+.block-1{
+  border-top: solid 3px #111;
+  border-bottom: solid 3px #111;
+  background-color: #f50;
+}
+.whpn-issue{
+  width: 189px;
+  height: 97px; 
+  margin:auto;
+  margin-top: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.04;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-align: center;
+  color: #110e03;
+}
+.arrow-img{
+  width: 148px;
+  height: 148px;
+  margin: auto;
+  margin-top: 3em;
+  object-fit: contain;
+}
+.bg-brand{
+  height: 90px;
+  background-color: #110e03;
+}
+.block-2{
+  display: flex;
+  flex-direction: column;
+}
+.b-brand{
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  margin-top: 0.5em;
+}
+.img-brand{
+  height:100%;
+  background-size: cover;
+ 
+}
+.img-brand-1{
+  background: url(https://cdn.zeplin.io/610079a8a166fd10c34366e0/assets/91CBB349-20B7-46E7-B635-EFECDFF4A374.png)
+}
+.img-brand-2{
+  background: url(https://cdn.zeplin.io/610079a8a166fd10c34366e0/assets/6FD14C5C-BB25-4BD0-AE68-61919E51E95D.png);
+}
+.img-brand-3{
+  background: url(https://cdn.zeplin.io/610079a8a166fd10c34366e0/assets/91CBB349-20B7-46E7-B635-EFECDFF4A374.png);
+}
+.img-brand-4{
+  background: url(https://cdn.zeplin.io/610079a8a166fd10c34366e0/assets/440C3E2B-28AB-4047-8880-C0A54D79AE96.png);
+}
+.block-all{
+  margin-top: 5em;
+}
+.d-brand{
+  background-color: #f50;
+}
+.img-hot{
+  width: 111px;
+  height: 59px;
+  position: relative;
+  top: -32em;
+  left: 20em;
+}
+.img-lol{
+  width: 133px;
+  height: 100px;
+  position: relative;
+  top: -4em;
+  left: 65em;
+}
+.img-coin{
+  width: 167px;
+  height: 169px;
+  position: relative;
+  top: -4em;
+  left: -5em;
+  object-fit: contain;
+}
+.img-xx-1{
+  width: 95px;
+  height: 95px;
+  object-fit: contain;
+  position: relative;
+  top: -60em;
+  left: 60em;
+}
+.img-xx-2{
+  width: 119px;
+  height: 111px;
+  object-fit: contain;
+  position: relative;
+  top: -55em;
+  left: 52.5em;
+}
+@media (max-width: 991px) {
+  .happend-title{
+    font-size: 25px;
+    width: 350px;
+  }
+  .block{
+    width:100%
+  }
+  .happend-content{
+    width: 350px;
+    font-size: 14px;
+  }
+  .happend{
+    height:3000px
+  }
+  .img-hot{
+display: none;
+  }
+}

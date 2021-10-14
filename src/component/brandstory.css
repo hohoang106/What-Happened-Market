@@ -1,0 +1,154 @@
+.brand-box{
+  height: 956px;
+  mix-blend-mode: multiply;
+  background-color: #0565bb;
+  margin-top: 3em;
+}
+.brand-title{
+  width: 387px;
+  height: 34px;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 4.5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fcd32a;
+  margin:auto;
+  padding-top: 2em;
+  text-transform: uppercase;
+}
+.brand-des{
+  width: 682px;
+  height: 45px;
+  margin: auto;
+  font-family: Noto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fcd32a;
+  padding-top: 5em;
+}
+.Rectangle-668 {
+  height: 24px;
+  margin:auto;
+  background-color: #111;
+}
+.what-brand{
+  width: 467px;
+  height: 20px;
+  margin: auto;
+  font-size: 25px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #222;
+}
+.Rectangle-667{
+  border: solid 3px #111;
+  background-color: #fff;
+  padding-right: 12px;
+  margin: 0;
+}
+.box-collab{
+  margin-top: 10em;
+}
+.img-collab{
+  padding: 0 0 0 12px;
+}
+.Rectangle-667{
+  padding: 0 12px 0 0;
+}
+.des-what{
+  width: 528px;
+  height: 135px;
+  margin: 39px 0 47px 50px;
+  font-family: Noto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+}
+.what-brand{
+  width: 467px;
+  height: 20px;
+  margin: 0 62px 39px 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+}
+.button-seemore{
+  width: 200px;
+  height: 60px; 
+  margin: 2em 15em 0 0px;
+  border: solid 3px #020001;
+  background-color: #fff;
+  font-size: 23px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222;
+}
+.img-1{
+  width: 147px;
+  height: 134px;
+  position: relative;
+  left: 40em;
+  top: -50em
+}
+.img-2{
+  width: 148px;
+  height: 186px;
+  object-fit: contain;
+  position: relative;
+  left: 35em;
+  top: -45em
+}
+@media (max-width:991px) {
+  .brand-title{
+    font-size:35px
+  }
+  .brand-des{
+    width: 350px;
+    font-size: 14px;
+  }
+  .button-seemore{
+    margin-left: 2em;
+  }
+  .what-brand{
+    font-size:16px;
+    width: 350px;
+  }
+  .des-what{
+    font-size:14px;
+    width: 350px;
+    text-align: left;
+  }
+  .brand-box{
+    height:1200px
+  }
+}
